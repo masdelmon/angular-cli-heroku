@@ -1,0 +1,58 @@
+{
+  "name": "angular-cli-heroku",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "start": "node server.js",
+    "test": "ng test",
+    "pree2e": "webdriver-manager update",
+    "postinstall": "ng build --aot -prod",
+    "deploy": "git push origin master && git push heroku master"
+  },
+  "private": true,
+  "dependencies": {
+    "typescript": "~2.4.2",
+    "@angular/animations": "^4.0.0",
+    "@angular/cli": "^1.2.4",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/language-service": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.4.1",
+    "zone.js": "^0.8.14"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "4.2.2",
+    "@types/core-js": "2.5.0",
+    "@types/jasmine": "3.3.9",
+    "@types/jasminewd2": "2.0.6",
+    "@types/node": "11.9.4",
+    "codelyzer": "~3.1.2",
+    "jasmine-core": "~2.6.2",
+    "jasmine-spec-reporter": "~4.1.0",
+    "karma": "~1.7.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^1.2.1",
+    "karma-jasmine": "~1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "protractor": "~5.1.2",
+    "ts-node": "~3.3.0",
+    "tslint": "~5.5.0"
+  },
+  "engines": {
+    "node": "8.2.1"
+  }
+}
