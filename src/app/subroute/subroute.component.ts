@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./subroute.component.css']
 })
 export class SubrouteComponent implements OnInit {
-
+  section = "Personal Info";
   constructor() { }
 
   ngOnInit() {
