@@ -7,12 +7,10 @@ import { EmbedVideoService } from 'ngx-embed-video';
   styleUrls: ['./video.component.css']
 })
 export class VideoComponent {
+  yt_iframe_html:any;
   youtubeUrl = 'https://www.youtube.com/watch?v=iHhcHTlGtRs';
  
-  youtubeId = 'iHhcHTlGtRs';
- 
   constructor(private embedService: EmbedVideoService) {
-    console.log(this.embedService.embed(this.youtubeUrl));
-    console.log(this.embedService.embed_youtube(this.youtubeId));
+    this.yt_iframe_html = this.embedService.embed(this.youtubeUrl);
   }
 }
