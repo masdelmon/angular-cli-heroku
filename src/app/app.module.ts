@@ -12,16 +12,18 @@ import { SubrouteComponent } from './subroute/subroute.component';
 
 import { ROUTES } from './app.routes';
 import { HomeComponent } from './home/home.component';
+import { VideoComponent } from './video.compinent';
 
 @NgModule({
   declarations: [
     AppComponent,
     SubrouteComponent,
-    HomeComponent
+    HomeComponent,
+    VideoComponent
   ],
   imports: [
     HttpClientModule,
-    EmbedVideo.forRoot()
+    EmbedVideo.forRoot(),
     BrowserModule,
     FormsModule,
     HttpModule,
