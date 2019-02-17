@@ -13,13 +13,15 @@ import { SubrouteComponent } from './subroute/subroute.component';
 import { ROUTES } from './app.routes';
 import { HomeComponent } from './home/home.component';
 import { VideoComponent } from './video.component';
+import { ExperiencesComponent } from './experiences.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SubrouteComponent,
     HomeComponent,
-    VideoComponent
+    VideoComponent,
+    ExperiencesComponent
   ],
   imports: [
     HttpClientModule,
