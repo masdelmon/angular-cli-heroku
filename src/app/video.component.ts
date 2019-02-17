@@ -8,7 +8,9 @@ import { EmbedVideoService } from 'ngx-embed-video';
 })
 export class VideoComponent {
   yt_iframe_html:any;
-  youtubeUrl = 'https://www.youtube.com/watch?v=iHhcHTlGtRs';
+  youtubeUrl = 'https://www.youtube.com/watch?v=TXaY1VY2FP8';
+  
+  /* iHhcHTlGtRs';https://m.youtube.com/watch?v=TXaY1VY2FP8 */
  
   constructor(private embedService: EmbedVideoService) {
     this.yt_iframe_html = this.embedService.embed(this.youtubeUrl);
