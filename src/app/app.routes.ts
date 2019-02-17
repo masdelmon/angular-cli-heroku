@@ -5,5 +5,7 @@ import { SubrouteComponent } from './subroute/subroute.component';
 
 export const ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'subroute', component: SubrouteComponent }
+  { path: 'subroute', component: SubrouteComponent },
+  { path: 'experience', component: SubrouteComponent },
+  { path: 'video', component: SubrouteComponent }
 ];
