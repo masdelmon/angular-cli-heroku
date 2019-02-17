@@ -3,7 +3,7 @@ import { EmbedVideoService } from 'ngx-embed-video';
  
 @Component({
   selector: 'video-component',
-  templateUrl: './template.html'
+  templateUrl: './video.component.html'
 })
 export class VideoComponent {
   vimeoUrl = 'https://vimeo.com/197933516';
