@@ -12,7 +12,7 @@ import { SubrouteComponent } from './subroute/subroute.component';
 
 import { ROUTES } from './app.routes';
 import { HomeComponent } from './home/home.component';
-import { VideoComponent } from './video.compinent';
+import { VideoComponent } from './video.component';
 
 @NgModule({
   declarations: [
