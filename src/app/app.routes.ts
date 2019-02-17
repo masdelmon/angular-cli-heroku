@@ -1,8 +1,8 @@
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { SubrouteComponent } from './subroute/subroute.component';
-import { VideoComponent } from './app/video.component';
-import { ExperiencesComponent } from './app/experiences.component';
+import { VideoComponent } from './video.component';
+import { ExperiencesComponent } from './experiences.component';
 
 
 export const ROUTES: Routes = [
