@@ -10,6 +10,7 @@ import { HttpClient } from '@angular/common/http';
 export class ExperiencesComponent {
    constructor(private http: HttpClient) { }
    experiences;
+   section = "Work experiences";
   
    ngOnInit() 
    {
