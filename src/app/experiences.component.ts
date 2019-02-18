@@ -17,7 +17,7 @@ export class ExperiencesComponent {
      /*
       this.http.get("http://jsonplaceholder.typicode.com/users").map((response) ⇒ response.json()).subscribe((data) ⇒ {this.displaydata(data);})
       */
-      this.http.get('https://api.github.com/users/seeschweiler').subscribe(data => {console.log(data);});
+      this.http.get('https://my-json-server.typicode.com/masdelmon/api-cv/experiences').subscribe(data => {console.log(data);});
  
    }
    displaydata(data) {this.experiences = data;}
