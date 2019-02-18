@@ -10,9 +10,14 @@ import { HttpClient } from '@angular/common/http';
 export class ExperiencesComponent {
    constructor(private http: HttpClient) { }
    exp;
+  
    ngOnInit() 
    {
+     /*
       this.http.get("http://jsonplaceholder.typicode.com/users").map((response) ⇒ response.json()).subscribe((data) ⇒ {this.displaydata(data);})
+      */
+      this.http.get('https://api.github.com/users/seeschweiler').subscribe(data => {console.log(data);});
+ 
    }
    displaydata(data) {this.exp = data;}
 }
