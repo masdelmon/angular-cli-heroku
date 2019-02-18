@@ -5,10 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
-/*
-import { HttpClientModule } from '@angular/common/http';
-import { EmbedVideo } from 'ngx-embed-video';*/
-
 import { AppComponent } from './app.component';
 import { SubrouteComponent } from './subroute/subroute.component';
 
@@ -26,9 +22,7 @@ import { ExperiencesComponent } from './experiences.component';
     VideoComponent,
     ExperiencesComponent
   ],
-  imports: [/*
-    HttpClientModule,
-    EmbedVideo.forRoot(),*/
+  imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
