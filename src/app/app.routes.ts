@@ -4,7 +4,6 @@ import { SubrouteComponent } from './subroute/subroute.component';
 import { VideoComponent } from './video.component';
 import { ExperiencesComponent } from './experiences.component';
 
-
 export const ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'subroute', component: SubrouteComponent },
