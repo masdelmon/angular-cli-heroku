@@ -1,8 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
+
 /*
 import { HttpClientModule } from '@angular/common/http';
 import { EmbedVideo } from 'ngx-embed-video';*/
@@ -11,6 +13,7 @@ import { AppComponent } from './app.component';
 import { SubrouteComponent } from './subroute/subroute.component';
 
 import { ROUTES } from './app.routes';
+
 import { HomeComponent } from './home/home.component';
 import { VideoComponent } from './video.component';
 import { ExperiencesComponent } from './experiences.component';
@@ -27,6 +30,7 @@ import { ExperiencesComponent } from './experiences.component';
     HttpClientModule,
     EmbedVideo.forRoot(),*/
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     HttpModule,
     RouterModule.forRoot(ROUTES)
