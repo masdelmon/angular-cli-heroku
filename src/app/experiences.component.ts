@@ -8,7 +8,7 @@ import 'rxjs/add/operator/map';
   styleUrls: ['./experiences.component.css']
 })
 
-export class AppComponent {
+export class ExperiencesComponent {
    section = "Work experiences";
    experiences;
   
