@@ -14,7 +14,7 @@ export class ExperiencesComponent {
   constructor(private http: Http) { }
   
    ngOnInit() {
-      this.http.get("http://my-json-server.typicode.com/typicode/demo").
+      this.http.get("").
       map(
          (response) ⇒ response.json()
       ).
