@@ -9,8 +9,10 @@ import 'rxjs/add/operator/map';
 })
 
 export class AppComponent {
-   constructor(private http: Http) { }
+   section = "Work experiences";
    experiences;
+  
+  constructor(private http: Http) { }
   
    ngOnInit() {
       this.http.get("http://jsonplaceholder.typicode.com/masdelmon/api-cv").
