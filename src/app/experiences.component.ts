@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 
 export class ExperiencesComponent {
    constructor(private http: HttpClient) { }
-   exp;
+   experiences;
   
    ngOnInit() 
    {
@@ -19,5 +19,5 @@ export class ExperiencesComponent {
       this.http.get('https://api.github.com/users/seeschweiler').subscribe(data => {console.log(data);});
  
    }
-   displaydata(data) {this.exp = data;}
+   displaydata(data) {this.experiences = data;}
 }
