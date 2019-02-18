@@ -3,9 +3,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
-
+/*
 import { HttpClientModule } from '@angular/common/http';
-import { EmbedVideo } from 'ngx-embed-video';
+import { EmbedVideo } from 'ngx-embed-video';*/
 
 import { AppComponent } from './app.component';
 import { SubrouteComponent } from './subroute/subroute.component';
@@ -23,9 +23,9 @@ import { ExperiencesComponent } from './experiences.component';
     VideoComponent,
     ExperiencesComponent
   ],
-  imports: [
+  imports: [/*
     HttpClientModule,
-    EmbedVideo.forRoot(),
+    EmbedVideo.forRoot(),*/
     BrowserModule,
     FormsModule,
     HttpModule,
