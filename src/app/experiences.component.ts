@@ -8,19 +8,11 @@ import { Http } from '@angular/http';
 })
 
 export class ExperiencesComponent {
-   section = "Work experiences";
-   experiences;
-  
-  constructor(private http: Http) { }
-  
-   ngOnInit() {
-      this.http.get("").
-      map(
-         (response) ⇒ response.json()
-      ).
-      subscribe(
-         (data) ⇒ {this.displaydata(data);}
-      )
+   constructor(private http: Http) { }
+   exp;
+   ngOnInit() 
+   {
+      this.http.get("http://jsonplaceholder.typicode.com/users").map((response) ⇒ response.json()).subscribe((data) ⇒ {this.displaydata(data);})
    }
-   displaydata(data) {this.experiences = data;}
+   displaydata(data) {this.exp = data;}
 }
