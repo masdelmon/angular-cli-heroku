@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./video.component.css']
 })
 export class VideoComponent {
+  section = "videoCV"
   constructor() {
   }
 }
