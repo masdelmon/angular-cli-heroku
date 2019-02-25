@@ -11,7 +11,6 @@ export class ExperiencesComponent {
    constructor(private http: HttpClient) { }
    experiences;
    section = "Work experiences";
-   num_experiences = 0;
   
    ngOnInit() 
    {
@@ -22,5 +21,4 @@ export class ExperiencesComponent {
  
    }
    displaydata(data) {this.experiences = data;}
-   this.num_experiences = this.experiences.length;
 }
