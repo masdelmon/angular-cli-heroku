@@ -1,11 +1,12 @@
 <br/>
- <h4><span class="label label-default">{{section}}</span> - <span class="badge badge-pill badge-info">{{experiences.length}}</span> </h4>
+ <h4><span class="label label-default">{{section}}</span> <span class="badge badge-pill badge-info">{{experiences.length}}</span> </h4>
 <ul *ngFor = "let experience of experiences">
    <li><p>Dal : {{experience.dal}} Al: {{experience.al}}</p>
        <hr/>
        <p>Ruolo   : {{experience.occupation}}</p>
        <p>Società : {{experience.employer}}</p>
        <p>Attività: {{experience.activities}}</p>
+       <hr/>
    </li>
 </ul>
 <footer>
