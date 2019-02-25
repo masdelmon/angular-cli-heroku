@@ -14,7 +14,7 @@
   },
   "private": true,
   "dependencies": {
-            "@angular-devkit/core": "7.3.1",
+    "@angular-devkit/core": "7.3.1",
     "@angular/animations": "^4.0.0",
     "@angular/cli": "^1.2.4",
     "@angular/common": "^4.0.0",
@@ -27,6 +27,7 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "@angular/service-worker": "7.2.6",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "ngx-embed-video": "1.0.4",
