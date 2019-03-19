@@ -3,7 +3,7 @@
     position:absolute;
     z-index:1000;
     top: 13%;
-    left: 25%;
+    left: 20%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
