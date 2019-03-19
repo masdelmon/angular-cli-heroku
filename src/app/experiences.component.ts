@@ -12,9 +12,11 @@ export class ExperiencesComponent {
    experiences;
    section = "Work experiences";
    exp_error:Boolean = false;
+   loader:Boolean = false;
   
    ngOnInit() 
    {
+     loader = true;
      /*
       this.http.get("http://jsonplaceholder.typicode.com/users").map((response) ⇒ response.json()).subscribe((data) ⇒ {this.displaydata(data);})
       */
@@ -22,5 +24,6 @@ export class ExperiencesComponent {
         data => {this.displaydata(data);},err => { this.exp_error = true })
  
    }
+   loader = false;
    displaydata(data) {this.experiences = data;}
 }
