@@ -27,5 +27,5 @@ export class ExperiencesComponent {
      
  
    }
-   displaydata(data) {this.experiences = data;}
+   displaydata(data) {this.experiences = data; this.loader = false;}
 }
