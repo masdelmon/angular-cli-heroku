@@ -2,8 +2,8 @@
     font-size: large;
     position:absolute;
     z-index:1000;
-    top: 10%;
-    left: 10%;
+    top: 15%;
+    left: 15%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
