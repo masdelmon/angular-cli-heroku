@@ -23,7 +23,7 @@ export class ExperiencesComponent {
       this.http.get('https://my-json-server.typicode.com/masdelmon/api-cv/experiences').subscribe(
         data => {this.displaydata(data);},err => { this.exp_error = true })
      
-      this.loader = false;
+    
      
  
    }
