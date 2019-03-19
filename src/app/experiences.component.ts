@@ -16,7 +16,7 @@ export class ExperiencesComponent {
   
    ngOnInit() 
    {
-     loader = true;
+     this.loader = true;
      /*
       this.http.get("http://jsonplaceholder.typicode.com/users").map((response) ⇒ response.json()).subscribe((data) ⇒ {this.displaydata(data);})
       */
@@ -24,6 +24,6 @@ export class ExperiencesComponent {
         data => {this.displaydata(data);},err => { this.exp_error = true })
  
    }
-   loader = false;
+   this.loader = false;
    displaydata(data) {this.experiences = data;}
 }
